@@ -1,0 +1,189 @@
+body {
+  padding: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  margin: auto;
+}
+
+/*PAGINA 1 */
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/fotofondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Titulo principal*/
+.primer_titulo {
+
+  padding-top: -2rem;
+  letter-spacing: 2px;
+  font-size: 64px;
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: 30rem;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*Titulos secundarios*/
+.segundo_subtitulo1 {
+padding-top: 150px;
+  color: rgb(255, 255, 255);
+  margin-left: 30rem;
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  margin-bottom: -2px;
+ 
+}
+.segundo_subtitulo {
+  color: rgb(255, 255, 255);
+  margin-left: 48rem;
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  margin-top: -3px;
+
+}
+
+/*Boton Entrar*/
+#ENTRAR {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin-left: 51rem;
+  background-color: black;
+  color: #fff;
+  margin-top: 60px ;
+  box-shadow: 0 8px 16px 0 rgba(248, 248, 248, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  transition-duration: 0.4s;
+ 
+}
+#ENTRAR:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+/*PAGINA 2 */
+
+.body2{
+  background-color: rgb(199, 199, 199); 
+}
+/*Boton volver*/
+#return {
+  background-color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+  margin-right: 70rem;
+  margin-bottom:2rem ;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+#return:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+/* Titulo principal 2*/
+#titulo2 {
+  background-color: rgb(255, 255, 255);
+  padding-top: 1rem;
+  padding-bottom: -1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  margin-bottom: -1rem;
+}
+ 
+/*Subtitulo 2*/
+.subtitulo_pag2 {
+  color: rgb(255, 255, 255);
+  margin-left: 5rem;
+  padding-top: 30px;
+  margin-bottom: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*Formulario*/
+label p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+select {
+  width: 150px;
+  margin: 2rem;
+  border-radius: 10px;
+  margin-right: -60rem;
+  display: inline-block;
+}
+
+#cargo {
+  width: 400px;
+  margin-left: -15rem;
+  border-radius: 10px;
+
+}
+.container_form {
+  width: 100vw;
+  background-image: url(../images/Office_laptop_programming_coffee_4K_1366x768.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position:center;
+  height: 400px;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.285);
+  margin-top: 3rem;
+  width: 60rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  border-radius: 20px;
+}
+
+/*localizacion*/
+.formu{
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+ margin-left: 35rem;
+}
+
+/*Boton Buscar Trabajo*/
+#localizacion {
+  margin-left: 17rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+  width: 12rem;
+}
+#buscarTrabajo {
+  background-color: rgb(0, 0, 0);
+  width: 8rem;
+  border-radius: 10px;
+  height: 40px;
+
+  transition-duration: 0.4s;
+}
+
+#buscarTrabajo:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/*icono boton */
+
+
+

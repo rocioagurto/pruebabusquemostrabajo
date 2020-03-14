@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-
+  UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Carrois+Gothic+SC|Notable&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+</head>
+
+<body class="body2">
+    <h1  id="titulo2" class="ui dividing header" >  <button  class="ui primary button" id="return">Volver</button> <%= title %> </h1> 
+    <div class="container_form">
+   <br>
+    <form class="form" id="formulario">
+        
+        <h2 class="subtitulo_pag2" ><%= subtitle %></h2>
+        <!--Busqueda por país-->
+        <select class="ui search dropdown" id="localizacion">
+            <option value="chili" >Chile </option>
+            <option value="canada">Canada</option>
+            <option value="usa">Usa</option>
+            <option value="ireland">Irlanda</option>
+        </select>
+        <button type="submit" class="ui primary button" id="buscarTrabajo" >BUSCAR <i class="fas fa-map-marker-alt"></i></button>
+    </form>    
+</div>
+
+    <div  id="listado">
+        <div class="listado_fondo">
+
+        </div>
+
+    </div>
+  <br>
+  
+
+
+   <!--CDN Jquery-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <!-- CDN semantic -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+   <!-- CDN axios -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+   <!-- my script -->
+   <script src="/actions/jobs.js"></script>
+
+</body>
+
+</html>
